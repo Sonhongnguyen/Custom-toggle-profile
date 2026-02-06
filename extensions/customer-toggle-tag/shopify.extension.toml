@@ -31,15 +31,21 @@ api_access = true
 
 [extensions.settings]
  [[extensions.settings.fields]]
-  key = "banner_title"
+  key = "label_checkbox"
   type = "single_line_text_field"
-  name = "Banner title"
-  description = "Enter a title for the banner."
-  default = "Heading"
+  name = "Checkbox label"
+  description = "Enter a label for the checkbox."
+  default = "Click de nhan bat ngo!"
 
   [[extensions.settings.fields]]
-  key = "banner_description"
+  key = "action_description"
   type = "multi_line_text_field"
-  name = "Banner description"
-  description = "Enter a description for the banner."
-  default = "Welcome to your profile!"
+  name = "Action description"
+  description = "Enter a description for the action."
+  default = "Lam gi co gi bat ngo dau :D"
+
+  [[extensions.settings.fields]]
+    key = "datajet_id_action"
+    type = "single_line_text_field"
+    name = "Datajet ID action"
+    description = "Enter the Datajet ID for the action."
